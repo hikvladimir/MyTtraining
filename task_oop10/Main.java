@@ -19,14 +19,17 @@ public class Main {
         name.add("Наталья");
         name.add("Олеся");
         name.add("Сандра");
+        name.add("Мери");
+        name.add("Федот");
         ArrayList<Integer> nomber=new ArrayList<>();
-        for (int i=1; i<=10; i++){
+        for (int i=0; i<10; i++){
             nomber.add(i);
         }
         ArrayList<String> combo=new ArrayList<>();
         for (int i = 0; i < nomber.size(); i++) {
             String s = nomber.get(i) + " - " + name.get(i);
             combo.add(s);
+        }
 
             for (String str:combo){
                 System.out.println(str);
@@ -34,4 +37,4 @@ public class Main {
         }
 
     }
-}
+
