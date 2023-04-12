@@ -1,10 +1,13 @@
 package task14;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
 
-            int random = (int) (Math.random());
-            String result = String.format("Случайное число . Попробуйте еще раз...", random);
-            System.out.println(result);
+        int random = (int) (Math.random() * 90 + 10);
+        String result = String.format("Случайное число %s. Попробуйте еще раз...", random);
+        System.out.println(result);
     }
-}
+    }
+
