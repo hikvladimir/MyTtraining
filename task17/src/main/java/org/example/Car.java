@@ -1,0 +1,19 @@
+package org.example;
+
+public class Car {
+    private String brend;
+    private int number;
+
+    public Car(String brend, int number) {
+        this.brend = brend;
+        this.number = number;
+    }
+
+    public String getBrend() {
+        return brend;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+}
